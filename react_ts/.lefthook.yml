@@ -1,0 +1,7 @@
+pre-commit:
+  parallel: true
+  commands:
+    eslint:
+      run: npx eslint .
+    prettier:
+      run: npx prettier --check .

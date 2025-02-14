@@ -1,0 +1,16 @@
+//FIXME: Sass 설정(필요없을 시 삭제)
+$primary-color: #3498db;
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.button {
+  background-color: $primary-color;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
